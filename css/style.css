@@ -1,0 +1,43 @@
+/*element selector - bộ chọn thẻ*/
+div{
+   color: blue; 
+   font-size: 120px;
+}
+
+div{
+    color: red;
+}
+
+/*Class Selector - Chọn theo thuộc tính class*/
+.language{
+    color: green
+}
+
+/*Id Selector - Chọn theo thuộc tính id*/
+#language-1{
+    color: brown;
+}
+
+/*Pseudo Selector - Bộ chọn giả*/
+
+
+/*Attribute Selector - CHọn theo thuộc tính 0 phải id và class*/
+input[name="full_name"]{
+    border:10px solid red;
+}
+
+/*Combinator Selector - Chọn tổng hợp*/
+div span{
+
+}
+
+/*
+- Độ ưu tiên trong CSS 
+- Nghiên cứu sâu về bộ chọn
+- Flex Box 
+- Thuộc tính Position 
+*/
+
+/*
+https://www.w3schools.com/cssref/
+*/
