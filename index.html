@@ -66,7 +66,13 @@
     <h5>5</h5>
     <h6>6</h6>
 
-    <form>
+    
+    <!--GET/POST giao thức HTTP-->
+    <!--PUT, DELETE, OPTIONS, PATCH-->
+
+    <form action="https://google.com.vn" 
+    method="post" 
+    enctype="multipart/form-data">
         <!--Tạo ô nhập text-->
          <input type="text" name="full_name" placeholder="Họ tên"/>
 
@@ -78,6 +84,8 @@
 
          <!--Tạo ra ô nhập email-->
          <input type="email" name="email" placeholder="Email"/>
+
+         <input type="file" name="img"/>
 
          <select name="province">
             <option value="001">
